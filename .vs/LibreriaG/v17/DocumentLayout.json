@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\eduar\\OneDrive\\Escritorio\\api\\LibreriaG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A122375-BA4A-4D28-B912-7162E734B6A8}|..\\Backend_\\Backend_.csproj|c:\\users\\eduar\\onedrive\\escritorio\\api\\backend_\\bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{585034AD-4B2B-4471-B5F1-B3238703A55F}|LibreriaG.csproj|c:\\users\\eduar\\onedrive\\escritorio\\api\\libreriag\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585034AD-4B2B-4471-B5F1-B3238703A55F}|LibreriaG.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A122375-BA4A-4D28-B912-7162E734B6A8}|..\\Backend_\\Backend_.csproj|c:\\users\\eduar\\onedrive\\escritorio\\api\\backend_\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{585034AD-4B2B-4471-B5F1-B3238703A55F}|LibreriaG.csproj|c:\\users\\eduar\\onedrive\\escritorio\\api\\libreriag\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585034AD-4B2B-4471-B5F1-B3238703A55F}|LibreriaG.csproj|solutionrelative:pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A122375-BA4A-4D28-B912-7162E734B6A8}|..\\Backend_\\Backend_.csproj|c:\\users\\eduar\\onedrive\\escritorio\\api\\backend_\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{585034AD-4B2B-4471-B5F1-B3238703A55F}|LibreriaG.csproj|c:\\users\\eduar\\onedrive\\escritorio\\api\\libreriag\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{585034AD-4B2B-4471-B5F1-B3238703A55F}|LibreriaG.csproj|solutionrelative:pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A122375-BA4A-4D28-B912-7162E734B6A8}|..\\Backend_\\Backend_.csproj|c:\\users\\eduar\\onedrive\\escritorio\\api\\backend_\\en.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{585034AD-4B2B-4471-B5F1-B3238703A55F}|LibreriaG.csproj|c:\\users\\eduar\\onedrive\\escritorio\\api\\libreriag\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{585034AD-4B2B-4471-B5F1-B3238703A55F}|LibreriaG.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,59 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 187,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BL.cs",
-              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Escritorio\\api\\Backend_\\BL.cs",
-              "RelativeDocumentMoniker": "..\\Backend_\\BL.cs",
-              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Escritorio\\api\\Backend_\\BL.cs",
-              "RelativeToolTip": "..\\Backend_\\BL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T19:04:57.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DAL.cs",
-              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Escritorio\\api\\Backend_\\DAL.cs",
-              "RelativeDocumentMoniker": "..\\Backend_\\DAL.cs",
-              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Escritorio\\api\\Backend_\\DAL.cs",
-              "RelativeToolTip": "..\\Backend_\\DAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Title": "Pago.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Escritorio\\api\\LibreriaG\\Pago.cs",
+              "RelativeDocumentMoniker": "Pago.cs",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Escritorio\\api\\LibreriaG\\Pago.cs",
+              "RelativeToolTip": "Pago.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T18:53:41.879Z",
+              "WhenOpened": "2024-03-25T18:26:14.525Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EN.cs",
-              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Escritorio\\api\\Backend_\\EN.cs",
-              "RelativeDocumentMoniker": "..\\Backend_\\EN.cs",
-              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Escritorio\\api\\Backend_\\EN.cs",
-              "RelativeToolTip": "..\\Backend_\\EN.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Escritorio\\api\\LibreriaG\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Escritorio\\api\\LibreriaG\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAqwEkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T18:48:44.965Z",
+              "WhenOpened": "2024-03-25T18:28:46.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "conexion.cs",
-              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Escritorio\\api\\Backend_\\conexion.cs",
-              "RelativeDocumentMoniker": "..\\Backend_\\conexion.cs",
-              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Escritorio\\api\\Backend_\\conexion.cs",
-              "RelativeToolTip": "..\\Backend_\\conexion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Title": "Pago.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Escritorio\\api\\LibreriaG\\Pago.cs",
+              "RelativeDocumentMoniker": "Pago.cs",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Escritorio\\api\\LibreriaG\\Pago.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pago.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T18:44:43.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T18:17:02.4Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Escritorio\\api\\LibreriaG\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\Escritorio\\api\\LibreriaG\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T18:18:54.001Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

@@ -17,9 +17,11 @@ namespace LibreriaG
        
         public Form1()
         { 
-            InitializeComponent();    
+            InitializeComponent();   
+            button2.Enabled = false;
         }
-        
+        double suma;
+        string tipo;
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -33,16 +35,36 @@ namespace LibreriaG
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double suma = (Convert.ToInt32 (textBox1.Text)*00.05 )+ ( Convert.ToInt32(color.Text) * 00.10);
+            if (Convert.ToDouble(textBox1.Text) > 0 &&  Convert.ToDouble(color.Text) == 0)
+            {
+                tipo = "blanco y negro";
+            }
+            else
+            {
+              if(Convert.ToDouble(color.Text) > 0 && Convert.ToDouble(textBox1.Text) ==0)
+              {
+                tipo = "color";
+              }
+              else
+              {
+                tipo = "balco,negro y color ";
+              }
+
+            }
+           
+
+            suma = (Convert.ToInt32 (textBox1.Text)*00.05 )+ ( Convert.ToInt32(color.Text) * 00.10);
             total.Text = Convert.ToString(suma);
 
+            button2.Enabled = true;
         } 
 
 
         public void borrar()
         {
             textBox1.Text = "0";    
-            color.Text = "0";   
+            color.Text = "0"; 
+            total.Text = "0";
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -52,8 +74,11 @@ namespace LibreriaG
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Pago pg = new Pago();
-            pg.Show();
+         
+
+            Pago pg = new Pago(suma , tipo);
+            pg.ShowDialog();
+            borrar();
 
         }
     }
