@@ -22,7 +22,7 @@ namespace LibreriaG
         }
         double suma;
         string tipo;
-
+        int ttPaig;
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
            
@@ -34,7 +34,7 @@ namespace LibreriaG
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
+        { 
             if (Convert.ToDouble(textBox1.Text) > 0 &&  Convert.ToDouble(color.Text) == 0)
             {
                 tipo = "blanco y negro";
@@ -56,8 +56,14 @@ namespace LibreriaG
             suma = (Convert.ToInt32 (textBox1.Text)*00.05 )+ ( Convert.ToInt32(color.Text) * 00.10);
             total.Text = Convert.ToString(suma);
 
+            ttPaig = Convert.ToInt32(textBox1.Text) + Convert.ToInt32(color.Text);
+
             button2.Enabled = true;
         } 
+        public void bloqueo()
+        {
+            button2.Enabled = false;
+        }
 
 
         public void borrar()
@@ -76,9 +82,10 @@ namespace LibreriaG
         {
          
 
-            Pago pg = new Pago(suma , tipo);
+            Pago pg = new Pago(suma , tipo ,ttPaig);
             pg.ShowDialog();
             borrar();
+
 
         }
     }
